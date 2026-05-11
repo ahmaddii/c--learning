@@ -1,0 +1,15 @@
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.deps.json
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.runtimeconfig.json
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.dll
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/bin/Debug/net10.0/MyConsoleApp.pdb
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.AssemblyInfoInputs.cache
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.AssemblyInfo.cs
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.csproj.CoreCompileInputs.cache
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.sourcelink.json
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.dll
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/refint/MyConsoleApp.dll
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.pdb
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.genruntimeconfig.cache
+/home/malikahmadrasheed/Documents/GitHub/c--learning/MyConsoleApp/obj/Debug/net10.0/ref/MyConsoleApp.dll
