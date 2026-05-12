@@ -104,3 +104,38 @@ Console.WriteLine(@"c:\invoices\app.exe - j");
 // Kon'nichiwa World
 
 Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
+
+// String Interpolation using string literal and variable
+
+string namE = "Ahmad";
+int agE = 20;
+
+string messagE = $"Hello {namE} and my age is {agE}";
+
+Console.WriteLine(messagE);
+
+string projectName = "Baba.js";
+
+Console.WriteLine($@"c:\Home\outputs\{projectName}");
+
+Console.WriteLine();
+
+
+string projecTname = "ACME";
+
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+Console.WriteLine("View English Output: ");
+Console.WriteLine();
+
+
+Console.WriteLine($@" c:\Excercise\{projecTname}\data.txt");
+Console.WriteLine();
+
+
+Console.WriteLine($"{russianMessage}"); 
+Console.WriteLine();
+
+
+Console.WriteLine($@" c:\Exsercise\{projecTname}\ru-RU\data.txt");
+
