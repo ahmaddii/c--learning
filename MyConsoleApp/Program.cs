@@ -139,3 +139,46 @@ Console.WriteLine();
 
 Console.WriteLine($@" c:\Exsercise\{projecTname}\ru-RU\data.txt");
 
+int firstNumber = 12;
+int secondNumber = 4;
+
+Console.WriteLine(firstNumber + secondNumber);
+
+string firstName = "Ahmad";
+
+int widgetSold = 7;
+
+Console.WriteLine(firsName + (widgetSold + 7) +  " has been Sold");
+
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+
+decimal divideQuotient = 7.0m/5;
+
+Console.WriteLine($"Decimal Quotioent: {divideQuotient}");
+
+int first = 7;
+
+int Seond = 5;
+
+decimal  Quotient = (decimal)first / (decimal)Seond;
+
+Console.WriteLine(Quotient);
+
+Console.WriteLine($"Modulo of 200 / 5 : {200 % 5}");
+
+// Order of opearstions in c# is based on PEMDAS
+
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+
+Console.WriteLine(value1);// 23
+Console.WriteLine(value2); // 35
+
