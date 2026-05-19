@@ -285,3 +285,78 @@ Console.WriteLine("#1: Sophia :  \t" + sophiaScore + "\t A");
 Console.WriteLine("#2: Nicolas:  \t" + nicolasScore + "\t B");
 Console.WriteLine("#3  Zahra  :  \t" + zahraScore + "\t B");
 Console.WriteLine("#4: Jeong  :  \t"+  jeongScore + "\t A");
+
+
+Console.Write("\n");
+
+Console.WriteLine("==ZebDesk GPA==");
+
+Console.WriteLine("Student : Ahmad Rasheed");
+
+Console.Write("\n");
+
+Console.WriteLine("Subject   \t\tGrade       Credit Hour");
+Console.WriteLine("------------------------------------------------");
+
+int gradeA = 4;
+int gradeB = 3;
+
+String course1Name = "English 101 ";
+String course2Name = "Algebra 101 ";
+String course3Name = "Biology 101 "; 
+String course4Name = "Computer Science I";
+String course5Name = "Psycology 101 ";
+
+int course1Grade = gradeA;
+int course1Credit = 3;
+
+int course2Grade = gradeB;
+int course2Credit = 3;
+
+int course3Grade = gradeB;
+int course3Credit = 4;
+
+int course4Grade = gradeB;
+int course4Credit = 4;
+
+int course5Grade = gradeA;
+int course5Credit = 3;
+
+Console.WriteLine($"{course1Name}   \t\t {course1Grade}   \t\t{course1Credit}");
+Console.WriteLine($"{course2Name}   \t\t {course2Grade}   \t\t{course2Credit}");
+Console.WriteLine($"{course3Name}   \t\t {course3Grade}   \t\t{course3Credit}");
+Console.WriteLine($"{course4Name}   \t {course4Grade}   \t\t{course4Credit}");
+Console.WriteLine($"{course5Name}   \t {course5Grade}   \t\t{course5Credit}");
+
+Console.WriteLine("------------------------------------------------");
+
+
+int totalCreditHours = 0;
+
+totalCreditHours += course1Credit;
+totalCreditHours += course2Credit;
+totalCreditHours += course3Credit;
+totalCreditHours += course4Credit;
+totalCreditHours += course5Credit;
+
+int totalGradePoints = 0;
+
+totalGradePoints += course1Credit * course1Grade;
+totalGradePoints += course2Credit * course2Grade;
+totalGradePoints += course3Credit * course3Grade;
+totalGradePoints += course4Credit * course4Grade;
+totalGradePoints += course5Credit * course5Grade;
+
+//Console.WriteLine($"{totalGradePoints}   {totalCreditHours}");
+
+decimal gradePointAverage = (decimal) totalGradePoints/totalCreditHours;
+
+int leadingDigit = (int) gradePointAverage;
+
+int firstDigit = (int) (gradePointAverage * 10) % 10;
+
+int SecndDigit = (int) (gradePointAverage * 100) %10;
+
+Console.WriteLine();
+
+Console.WriteLine($"Final GPA : \t\t\t{leadingDigit}.{firstDigit}{SecndDigit}");
